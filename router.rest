@@ -1,0 +1,21 @@
+GET http://localhost:8000/log 
+
+###
+POST http://localhost:8000/register
+Content-Type: application/json
+
+{
+    "fullname": "adeoye ayobami",
+    "username": "ayoadeoye",
+    "email": "ayoadeoye02@gmail.com",
+    "password": "jaywon"
+}
+
+###
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+    "email": "ayoadeoye02@gmail.com",
+    "password": "jaywon"
+}
